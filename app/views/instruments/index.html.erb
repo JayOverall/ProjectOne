@@ -11,11 +11,11 @@
 <% end %>
 
 <div class="instrument-index-grid pt4">
-  <% @instruments.each do |instrument| %>
+  <% @instruments.each do |instrument| unless instrument.image.blank ?%>
 
     <div class="instrument border-light">
       <div class="instrument-thumb">
-      <%= link_to image_tag(instrument.image_url(:thumb)), instrument %>
+      <%= link_to image_tag(instrument.image_url(:thumb)): instrument %>
 
       <% if instrument.condition? %>
         <div class="condition">
