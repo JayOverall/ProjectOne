@@ -6,6 +6,7 @@ class InstrumentsController < ApplicationController
   # GET /instruments.json
   def index
     @instruments = Instrument.all.order("created_at desc")
+
   end
 
   # GET /instruments/1
@@ -72,4 +73,4 @@ class InstrumentsController < ApplicationController
     def instrument_params
       params.require(:instrument).permit(:brand, :model, :description, :condition, :finish, :title, :price, :image)
     end
-end
+end 
