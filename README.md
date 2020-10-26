@@ -20,7 +20,7 @@ Started my own project but eventually decided to follow a tutorial, something i 
 
 
 
-<img src="https://tenor.com/view/regular-show-computer-laugh-mordecai-gif-5407353">
+<img src="https://media1.tenor.com/images/5f10a18f257ce2379ee188e9eb3c9ddd/tenor.gif">
 
 ### WORKING LINK
 
